@@ -1,0 +1,137 @@
+
+body {
+    font-family:monserrat;
+    --bg-color:#330066;
+    --text-color:#333;
+    --faq-color:#fff;
+    --dark-color: rgb(255,130,77);
+}
+
+body, div,ul,li,a,h1,h2,h3,h4,p{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:var(--bg-color);
+}
+
+.faq{
+    max-width:clamp(300px,70%,700px);
+    margin:auto;
+}
+
+.faq details{
+    background-color:var(--faq-color);
+    margin: 7px;
+    padding: 7px;
+}
+
+summary {
+    user-select:none;
+    position:relative;
+}
+
+.content{
+    padding:  10px;
+    padding-top:5px;
+    margin:10px;
+    margin-bottom: 0;
+    border-top: 1px solid var(--bg-color);
+    font-size: .8rem;
+    color: var(--text-color);
+}
+
+summary::marker{
+    content:"";
+}
+
+summary::before {
+    content:"+";
+    color: #908;
+    position:absolute;
+    right:0;
+    font-weight:900;
+}
+
+details[open] summary::before{
+    content:"-";
+}
+
+details b{
+    background-color:var(--dark-color);
+    padding:2px  4px;
+    color:#fff;
+}
+
+details:nth-child(2) b{
+    background-color:#000000;
+}
+
+details:nth-child(3) b{
+    background-color:#000033;
+}
+
+details:nth-child(4) b{
+    background-color:#330000;
+}
+
+details:nth-child(5) b{
+    background-color:#330033;
+}
+
+details:nth-child(6) b{
+    background-color:#000066;
+}
+
+details:nth-child(7) b{
+    background-color:#000099;
+}
+
+details:nth-child(8) b{
+    background-color:#0000FF;
+}
+
+details:nth-child(9) b{
+    background-color:#3300FF;
+}
+
+details:nth-child(10) b{
+    background-color:#6633CC;
+}
+
+details:nth-child(11) b{
+    background-color:#660099;
+}
+
+details:nth-child(12) b{
+    background-color:#CC0099;
+}
+
+details:nth-child(13) b{
+    background-color:#FF3399;
+}
+
+details:nth-child(14) b{
+    background-color:#FF6666;
+}
+
+details:nth-child(15) b{
+    background-color:#FF6666;
+}
+
+details:nth-child(16) b{
+    background-color:#FF9966;
+}
+
+details:nth-child(17) b{
+    background-color:#FFCC66;
+}
+
+details:nth-child(18) b{
+    background-color:#FFFF33;
+}
+
+details:nth-child(18) b{
+    background-color:#FFCC00;
+}
